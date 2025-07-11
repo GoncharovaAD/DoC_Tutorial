@@ -1,0 +1,36 @@
+site_name: Bestiary                 #имя вашего сайта
+site_author: Geralt from Rivia                       #ваше имя
+
+nav:                                      #расположение всех ваших файлов
+  - Overview: index.md 
+  - Ghosts and specters: 
+    - Ghost: src/managing/Ghost.md
+    - Nightwraith: src/managing/Nightwraith.md
+    - Noonwraith: src/managing/Noonwraith.md
+  - Hybrids:
+    - Griffin: src/managing/Griffin.md
+    - Harpy: src/managing/Harpy.md
+    - Succubus: src/managing/Succubus.md
+
+theme:
+  name: material
+  logo: 'src/img/d.png'                    #путь к лого вашего сайта
+  feature:
+    tabs: false
+  language: 'en'
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.extra
+  - pymdownx.snippets:
+      base_path: docs/src
+
+plugins:
+  - search
+
+extra_css:
+  - 'stylesheets/extra-page-content.css'
+  - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'

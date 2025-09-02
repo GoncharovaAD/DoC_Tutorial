@@ -1,0 +1,2 @@
+#Ghost
+The terms ghost or specter are both hypernyms used to refer to spectral creatures that generally haunt cemeteries and crypts. Sometimes, however, the specters are tethered to a certain person or a place; some unfinished business keeping them trapped in the mortal plane.
